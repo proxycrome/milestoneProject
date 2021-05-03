@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+    <title>Milestone Project</title>
+</head>
+<body>
+    <main>
+        <h1>Student Form with Data Table</h1>
+        <div class="form"> 
+            <form action="#" id="myForm" autocomplete="off">
+                <label for="fname" class="label">FirstName:<span>*</span></label><label class="validation-error hide" id="firstNameValidationError">This field is required</label>
+                    <input type="text" id="fname" name="fname">
+                <label for="sname" class="label">Surname:<span>*</span></label><label class="validation-error hide" id="surNameValidationError">This field is required</label>
+                    <input type="text" id="sname" name="sname"> 
+                <label for="age" class="label">Age:<span>*</span></label><label class="validation-error hide" id="ageValidationError">This field is required</label>
+                    <input type="text" id="age" name="age">
+                <label for="clevel" class="label">Current Level:<span>*</span></label><label class="validation-error hide" id="currentLevelValidationError">This field is required</label>
+                    <input type="text" id="clevel" name="clevel">
+                <label for="fclub" class="label">Favorite Club:<span>*</span></label><label class="validation-error hide" id="favoriteClubValidationError">This field is required</label>
+                    <input type="text" id="fclub" name="fclub">
+                <br>    
+                <button type="submit" id="btn">Save Profile</button>
+            </form>
+        </div> 
+        <br>
+        <table border="1" id="user_data" class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Surname</th>
+                    <th>Age</th>
+                    <th>Current Level</th>
+                    <th>Favorite Club</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+    </main>
+</body>
+</html>
