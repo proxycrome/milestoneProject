@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color:darkorange;
+    background-color:rgb(20, 133, 161);
 }
 
 *{
@@ -20,6 +20,15 @@ form label{
 form input{
     margin: 5px 0;
     display: block;
+    height: 30px;
+}
+
+form #btn{
+    background-color: rgb(20, 133, 161);;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .form{
@@ -27,10 +36,11 @@ form input{
     padding: 10px 0 10px 10px;
     width: 400px;
     margin: 0 auto; 
+    border-radius: 10px;
 }
 
 h1{
-    color: rgb(146, 31, 146);
+    color: white;
     text-align: center
 }
 
@@ -38,6 +48,7 @@ table{
     border-collapse: collapse;
     text-align: center;
     margin: 0 auto;
+    border-color: black;
 }
 
 th, td{

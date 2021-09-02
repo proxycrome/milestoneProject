@@ -1,11 +1,3 @@
-// const students = [
-//     {"id": 1, "FirstName": "Victor", "SurName": "Ezeonwuka", "Age": 29, "Level": 300, "Favorite Club": "Barcelona", "edit": "delete"},
-//     {"id": 2, "FirstName": "Ayo", "SurName": "Garba", "Age": 27, "Level": 300, "Favorite Club": "Arsenal", "edit": "delete"},
-//     {"id": 3, "FirstName": "Nkechi", "SurName": "Chigozie", "Age": 28, "Level": 400, "Favorite Club": "Juventus", "edit": "delete"},
-//     {"id": 4, "FirstName": "Simi", "SurName": "Adekunle", "Age": 25, "Level": 200, "Favorite Club": "Real Madrid", "edit": "delete"},
-//     {"id": 5, "FirstName": "Sylvia", "SurName": "Adejoke", "Age": 23, "Level": 100, "Favorite Club": "Manchester United", "edit": "delete"}
-// ];
-
 const students = [];
 
 
